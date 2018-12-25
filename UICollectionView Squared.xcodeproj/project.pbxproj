@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		E06F549121D20D0D006824C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F549021D20D0D006824C1 /* AppDelegate.swift */; };
-		E06F549321D20D0D006824C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F549221D20D0D006824C1 /* ViewController.swift */; };
-		E06F549621D20D0D006824C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06F549421D20D0D006824C1 /* Main.storyboard */; };
+		E06F549321D20D0D006824C1 /* SquaredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F549221D20D0D006824C1 /* SquaredViewController.swift */; };
 		E06F549821D20D0E006824C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06F549721D20D0E006824C1 /* Assets.xcassets */; };
-		E06F549B21D20D0E006824C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06F549921D20D0E006824C1 /* LaunchScreen.storyboard */; };
+		E06F54A321D20DBD006824C1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F54A221D20DBD006824C1 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E06F548D21D20D0D006824C1 /* UICollectionView Squared.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UICollectionView Squared.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06F549021D20D0D006824C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E06F549221D20D0D006824C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E06F549521D20D0D006824C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E06F549221D20D0D006824C1 /* SquaredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaredViewController.swift; sourceTree = "<group>"; };
 		E06F549721D20D0E006824C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E06F549A21D20D0E006824C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E06F549C21D20D0E006824C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06F54A221D20DBD006824C1 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				E06F549021D20D0D006824C1 /* AppDelegate.swift */,
-				E06F549221D20D0D006824C1 /* ViewController.swift */,
-				E06F549421D20D0D006824C1 /* Main.storyboard */,
+				E06F549221D20D0D006824C1 /* SquaredViewController.swift */,
+				E06F54A221D20DBD006824C1 /* Colors.swift */,
 				E06F549721D20D0E006824C1 /* Assets.xcassets */,
-				E06F549921D20D0E006824C1 /* LaunchScreen.storyboard */,
 				E06F549C21D20D0E006824C1 /* Info.plist */,
 			);
 			path = "UICollectionView Squared";
@@ -122,9 +119,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E06F549B21D20D0E006824C1 /* LaunchScreen.storyboard in Resources */,
 				E06F549821D20D0E006824C1 /* Assets.xcassets in Resources */,
-				E06F549621D20D0D006824C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +130,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E06F549321D20D0D006824C1 /* ViewController.swift in Sources */,
+				E06F549321D20D0D006824C1 /* SquaredViewController.swift in Sources */,
+				E06F54A321D20DBD006824C1 /* Colors.swift in Sources */,
 				E06F549121D20D0D006824C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E06F549421D20D0D006824C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E06F549521D20D0D006824C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E06F549921D20D0E006824C1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E06F549A21D20D0E006824C1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E06F549D21D20D0E006824C1 /* Debug */ = {
