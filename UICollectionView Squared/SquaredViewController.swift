@@ -30,7 +30,7 @@ class SquaredViewController: UIViewController, UICollectionViewDelegate, UIColle
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let portrait = ((collectionView.frame.width - (sidePadding * (itemsPerRow - 1)) ) / itemsPerRow )
+        let portrait = ((collectionView.frame.width - (sidePadding * (itemsPerRow - 1)) ) / itemsPerRow ) - 1
         let landscape = ((collectionView.frame.height - (sidePadding * (itemsPerRow - 1)) ) / itemsPerRow ) - 1
         
         let sizes = [portrait, landscape]
